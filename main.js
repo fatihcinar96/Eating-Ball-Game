@@ -193,7 +193,7 @@ function loop() {
   ctx.fillStyle = 'rgba(0,0,0,0.25)';
   ctx.fillRect(0,0,width,height);
   
-  while(balls.length < 5) {
+  while(balls.length < 25) {
     var size = random(10,20);
     var ball = new Ball(
       // ball position always drawn at least one ball width
